@@ -1,7 +1,7 @@
 import openpyxl, json
 import openai
 
-# pyinstaller -F -n TranslationByChatGPT main.py
+# pyinstaller -F --distpath ./ -n TranslationByChatGPT main.py
 
 def Init():
     print("프로그램 개발자 : 갈대(westreed@naver.com)\n")
